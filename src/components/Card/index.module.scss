@@ -1,0 +1,46 @@
+
+.in {
+  background: var(--background__card, #f6f8fc);
+  padding: 1.15rem;
+  color: var(--color__text__card, #131215);
+  border-radius: var(--border-radius__card);
+  position: relative;
+}
+.source {
+  color: var(--color__text__card, #131215);
+  display: inline-block;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 1.15rem;
+  display: block;
+  text-transform: uppercase;
+  color: var(--color__small__card, #78797d);
+}
+
+.value {
+  font-size: 2.75rem;
+  font-weight: 500;
+
+  small {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--color__small__card, #78797d);
+  }
+}
+
+
+.flag {
+  left: auto;
+  right: 0;
+  margin: 1.15rem;
+  position: absolute;
+  top: 0;
+  width: 2.75rem;
+  border-radius: 50%;
+  height: 2.75rem;
+  background: var(--color__small__card, #78797d);
+}

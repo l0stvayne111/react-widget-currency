@@ -1,0 +1,21 @@
+:root {
+  --background__card: #f6f8fc;
+  --color__text__card: #131215;
+  --color__small__card: #78797d;
+  --border-radius__card: 1rem;
+}
+//.currency-react__widget{
+//  &[data-scheme='dark'] {
+//    :root {
+//      --background__card: #131215;
+//      --color__text__card: #FFFFFF;
+//      --color__small__card: #f6f8fc;
+//    }
+//  }
+//}
+
+.currency-react__widget[data-scheme="dark"] {
+  --background__card: #131215;
+  --color__text__card: #FFFFFF;
+  //--color__small__card: #f6f8fc;
+}
